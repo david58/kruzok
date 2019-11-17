@@ -28,6 +28,7 @@ def fib4(n):
     for i in range(n-1):
         a,b = b, a+b
     return b
+
 def fib_magic(n):
     def _fib(n):
         if n == 0:
